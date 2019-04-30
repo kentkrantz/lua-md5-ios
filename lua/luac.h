@@ -1,0 +1,1 @@
+int lua_compile(int count, char *input[], char *output);
