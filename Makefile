@@ -4,7 +4,7 @@ XCODE_TOOLCHAIN_PATH = /Applications/Xcode.app/Contents/Developer/Toolchains/Xco
 CC := $(XCODE_TOOLCHAIN_PATH)/clang
 AR := $(XCODE_TOOLCHAIN_PATH)/ar
 
-ARCHS = -arch armv7 -arch armv7s -arch arm64
+ARCHS = -arch armv7 -arch armv7s -arch arm64 -arch arm64e
 
 #======================================
 
